@@ -1,6 +1,6 @@
 <script>
 	export let data
-	const netlifyEdge = JSON.stringify(data.netlifyEdge, null, 2)
+	const netlifyEdge = data.netlifyEdge
 </script>
 
 <pre>{netlifyEdge}</pre>
